@@ -5,3 +5,58 @@
 .btn-p{
     color: red;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #B49286;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+#logo{
+    width: 6rem;
+    text-align: start;
+    display: inline-block;
+}
+
+main img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.profile img {
+
+    text-align: center;
+    border: 2px solid #333;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #FFF;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    width: 10rem;
+    background-color: #FFD9DA;
+    cursor: pointer;
+}
+
+div{
+    width: 300px;
+    display: inline-block;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #B49286;
+    color: #fff;
+}
