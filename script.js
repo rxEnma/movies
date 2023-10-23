@@ -189,7 +189,7 @@ let femme2 = new femme (
     '38',
     'femmes',
     '77',
-    'description',
+    'Je me présente: Karen, une femme élégante et mystérieuse. Un regard pétillant et son charme envoûtant, je sait captiver les cœurs. Passionnée de littérature et de voyage, je cherche une compagne cultivée et ouverte d'esprit pour explorer le monde et créer des souvenirs inoubliables.',
     ''
     );
 let femme3 = new femme (
