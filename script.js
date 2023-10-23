@@ -174,121 +174,121 @@ let homme12 = new homme (
     );
 let femme1 = new femme (
     '109',
-    'Homme1',
+    'Laeticia',
     'assets/femme1.jpg',
-    'age',
-    'search',
-    'region',
+    '29',
+    'homme',
+    '35',
     'description',
     ''
     );
 let femme2 = new femme (
     '110',
-    'Homme1',
+    'Karen',
     'assets/femme2.jpg',
-    'age',
-    'search',
-    'region',
+    '38',
+    'femmes',
+    '77',
     'description',
     ''
     );
 let femme3 = new femme (
     '111',
-    'Homme1',
+    'Laura',
     'assets/femme3.jpg',
-    'age',
-    'search',
-    'region',
+    '32',
+    'hommes',
+    '75',
     'description',
     ''
     );
 let femme4 = new femme (
     '112',
-    'Homme1',
+    'Catherine',
     'assets/femme4.jpg',
-    'age',
-    'search',
-    'region',
+    '56',
+    'hommes',
+    '27',
     'description',
     ''
     );
 let femme5 = new femme (
     '113',
-    'Homme1',
+    'Elisabeth',
     'assets/femme5.jpg',
-    'age',
-    'search',
-    'region',
+    '58',
+    'hommes et femmes',
+    '69',
     'description',
     ''
     );
 let femme6 = new femme (
     '114',
-    'Homme1',
+    'Charlotte',
     'assets/femme6.jpg',
-    'age',
-    'search',
-    'region',
+    '34',
+    'hommes et femmes',
+    '14',
     'description',
     ''
     );
 let femme7 = new femme (
     '115',
-    'Homme1',
+    'Louise',
     'assets/femme7.jpg',
-    'age',
-    'search',
-    'region',
+    '24',
+    'hommes',
+    '80',
     'description',
     ''
     );
 let femme8 = new femme (
     '116',
-    'Homme1',
+    'Léanne',
     'assets/femme8.jpg',
-    'age',
-    'search',
-    'region',
+    '19',
+    'femmes et hommes',
+    '95',
     'description',
     ''
     );
 let femme9 = new femme (
     '117',
-    'Homme1',
+    'Juhi',
     'assets/femme9.jpg',
-    'age',
-    'search',
-    'region',
+    '21',
+    'hommes',
+    '33',
     'description',
     ''
     );
 let femme10 = new femme (
     '118',
-    'Homme1',
+    'Karine',
     'assets/femme10.jpg',
-    'age',
-    'search',
-    'region',
+    '45',
+    'hommes',
+    '31',
     'description',
     ''
     );
 let femme11 = new femme (
     '119',
-    'Homme1',
+    'Veronique',
     'assets/femme11.jpg',
-    'age',
-    'search',
-    'region',
+    '57',
+    'femmes',
+    '35',
     'description',
     ''
     );
 let femme12 = new femme (
     '120',
-    'Homme1',
+    'Piper',
     'assets/femme12.jpg',
-    'age',
-    'search',
-    'region',
+    '20',
+    'hommes',
+    '76',
     'description',
     ''
     );
