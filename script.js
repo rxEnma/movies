@@ -10,6 +10,9 @@ class person {
         this.description = description;
     }
 }
+
+const personArray= [homme1, homme2, homme3, homme4, homme5, homme6, homme7, homme8, homme9, homme10, homme11, homme12, femme1, femme2, femme3, femme4, femme5, femme6, femme7, femme8, femme9, femme10, femme11, femme12];
+
 // Récupérer les informations du profil
 
 
