@@ -1,8 +1,8 @@
-.un{
+.un {
     color: blue;
 }
 
-.btn-p{
+.btn-p {
     color: red;
 }
 
@@ -16,10 +16,10 @@ header {
     background-color: #B49286;
     color: #fff;
     text-align: center;
-    /* padding: 1rem; */
+    padding: 1rem;
 }
 
-#logo{
+#logo {
     width: 10rem;
     float: left;
 
@@ -49,16 +49,20 @@ main img {
     cursor: pointer;
 }
 
-div{
+div {
     width: 300px;
     display: inline-block;
 }
-h1{
-    width:300px;
-    display:inline-block;
+
+h1 {
+    text-align: center;
+    right: 50%;
 }
 
+
+
 footer {
+    padding-top: 5rem;
     text-align: center;
     padding: 1rem;
     background-color: #B49286;
