@@ -16,13 +16,13 @@ header {
     background-color: #B49286;
     color: #fff;
     text-align: center;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 #logo{
-    width: 6rem;
-    text-align: start;
-    display: inline-block;
+    width: 10rem;
+    float: left;
+
 }
 
 main img {
@@ -52,6 +52,10 @@ main img {
 div{
     width: 300px;
     display: inline-block;
+}
+h1{
+    width:300px;
+    display:inline-block;
 }
 
 footer {
