@@ -59,7 +59,7 @@ let homme1 = new homme (
     '36',
     'femmes et hommes',
     '76',
-    'Bien sûr, voici une autre description courte pour toi : "Optimiste, créatif et avide de nouveaux horizons. Passionné par l'art, les voyages et les conversations profondes. À la recherche d'une connexion authentique et de complicité. Prêt à créer des souvenirs uniques ensemble.',
+    'Optimiste, créatif et avide de nouveaux horizons. Passionné par l'art, les voyages et les conversations profondes. À la recherche d'une connexion authentique et de complicité. Prêt à créer des souvenirs uniques ensemble.',
     'homme'
     );
 let homme2 = new homme (
@@ -69,7 +69,7 @@ let homme2 = new homme (
     '43',
     'hommes',
     '27',
-    'description',
+    'Salut, je m'appelle Patrice. j'aime sortir faire la fete mais aussi les soirées tranquilles à la maison. Je recherche quelqu'un qui partage ma passion pour le tuning afin de construire la voiture de nos rêves ensemble. Découvre plus sur moi en matchant !',
     'homme'
     );
 let homme3 = new homme (
@@ -259,7 +259,7 @@ let femme9 = new femme (
     '21',
     'hommes',
     '33',
-    'description',
+    'je suis une femme pleine de vie à la recherche de sa moitié. À la fois douce et audacieuse, j'adore les voyages, la cuisine et les longues promenades en nature. Je souhaite trouver quelqu'un avec qui partager des moments de complicité, de rires et de tendresse. Êtes-vous prêt à vivre une belle histoire avec moi?',
     ''
     );
 let femme10 = new femme (
@@ -269,7 +269,7 @@ let femme10 = new femme (
     '45',
     'hommes',
     '31',
-    'description',
+    'Passionnée de musique et d'art, je suis à la recherche d'une connexion authentique avec un partenaire attentionné. Mon esprit curieux et ma joie de vivre sont contagieux. Prêt à partager des aventures imprévisibles et des moments de complicité avec moi? Rejoins-moi maintenant!',
     ''
     );
 let femme11 = new femme (
