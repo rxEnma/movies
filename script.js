@@ -59,7 +59,7 @@ let homme1 = new homme (
     '36',
     'femmes et hommes',
     '76',
-    'description',
+    'Bien sûr, voici une autre description courte pour toi : "Optimiste, créatif et avide de nouveaux horizons. Passionné par l'art, les voyages et les conversations profondes. À la recherche d'une connexion authentique et de complicité. Prêt à créer des souvenirs uniques ensemble.',
     'homme'
     );
 let homme2 = new homme (
@@ -79,7 +79,7 @@ let homme3 = new homme (
     '41',
     'femmes',
     '75',
-    'description',
+    'Moi c'est Emmanuel, un homme passionné par la musique, la nature et les voyages. Je cherche une partenaire de vie pour partager des moments intenses et des conversations profondes.Découvrons-nous si tu es prête à découvrir le monde à mes côtés et à vivre de belles aventures ensemble !',
     'homme'
     );
 let homme4 = new homme (
@@ -139,7 +139,7 @@ let homme9 = new homme (
     '20',
     'femmes',
     '33',
-    'description',
+    'Amoureux des voyages, mordu de lecture et passionné d'humour. À la recherche d'une complicité sincère et de moments mémorables. Prêt à explorer le monde avec toi. Like pour en savoir plus',
     'homme'
     );
 let homme10 = new homme (
@@ -149,7 +149,7 @@ let homme10 = new homme (
     '26',
     'femmes',
     '35',
-    'description',
+    'Esprit libre, passionné d'aventure et de découvertes. Toujours prêt à embrasser les surprises que la vie offre. À la recherche d'une connexion authentique et de moments remplis de rires. Match avec moi et créons notre propre aventure ensemble!',
     'homme'
     );
 let homme11 = new homme (
@@ -179,7 +179,7 @@ let femme1 = new femme (
     '29',
     'homme',
     '35',
-    'description',
+    'Salut! Je suis un cocktail d'aventure, d'intelligence et de spontanéité. Passionné par les voyages, j'adore explorer de nouveaux horizons et découvrir différentes cultures. Je suis également un adepte de la lecture et des discussions profondes. Si tu es à la recherche d'une connexion authentique, d'une dose d'humour et d'une personne ouverte d'esprit, alors nous pourrions être des âmes sœurs en devenir. Faisons connaissance, partageons des rires et créons des souvenirs inoubliables ensemble',
     ''
     );
 let femme2 = new femme (
@@ -199,7 +199,7 @@ let femme3 = new femme (
     '32',
     'hommes',
     '75',
-    'description',
+    'Esprit curieux, aventurier dans l'âme. Passionné par l'art, la nature et les discussions profondes. À la recherche d'une connexion authentique. Prêt à créer des souvenirs inoubliables. Rejoins-moi dans cette aventure ',
     ''
     );
 let femme4 = new femme (
