@@ -1,3 +1,5 @@
+
+
 .un {
     color: blue;
 }
@@ -31,9 +33,11 @@ main img {
     flex-wrap: wrap;
     justify-content: center;
     padding: 1rem;
+    width: 8rem;
+    max-width: 100%;
 }
 
-.profile img {
+.profile{
 
     text-align: center;
     border: 2px solid #333;
@@ -50,10 +54,6 @@ main img {
     cursor: pointer;
 }
 
-div {
-    width: 300px;
-    display: inline-block;
-}
 
 .card-img-top{
     height: 60%;
@@ -66,7 +66,7 @@ h1 {
 
 
 footer {
-    padding-top: 5rem;
+    margin-top: 5rem;
     text-align: center;
     padding: 1rem;
     background-color: #B49286;
@@ -109,7 +109,7 @@ footer {
     column-gap: 2rem;   
     margin: 2rem;
     position: relative;
-    left: 20rem;
+    margin-left: 10rem; 
 }
 
 /* cards */
@@ -173,4 +173,34 @@ footer {
 
 ::-webkit-scrollbar-corner {
     background: #000;
+}
+
+  #retour{
+    display: flex;
+    margin: auto;
+    margin-top:4rem ;
+
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-buttons {
+    margin-bottom: 10px;
+}
+
+.hide {
+    display: none;
 }

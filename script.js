@@ -10,18 +10,17 @@ let BonChan = document.querySelector('.BonChan');
     popup.style.display = 'none';
 });
 
-  // Se montre quand la page se charge
-  window.onload = function () {
-    let popup = document.querySelector('.popup');
-    popup.style.display = 'block';
-    welcome.play();
-    //masque la card jusqu'a cliquer sur "Commencer"
-    gameContainer.style.visibility ='hidden';
-}
-
+//   // Se montre quand la page se charge
+//   window.onload = function () {
+//     let popup = document.querySelector('.popup');
+//     popup.style.display = 'block';
+//     window.play();
+//     //masque la card jusqu'a cliquer sur "Commencer"
+//     gameContainer.style.visibility ='hidden';
+// }
 
 class person {
-    constructor(id, pseudo, picture, age, gender, search, region, description){
+    constructor(id, pseudo, picture, age,gender, search,region,description) {
         this.id = id;
         this.pseudo = pseudo;
         this.picture = picture;
@@ -29,13 +28,39 @@ class person {
         this.gender = gender;
         this.search = search;
         this.region = region;
-        this.description = description;
-    }
-}
+        this.description =description;
 
-let profile = document.getElementById("profile");
+    }}
 
 
+
+// class Person {
+//     constructor(id, nom, prenom, age, search,description) {
+//         this.id = id;
+//         this.nom = nom;
+//         this.prenom = prenom;
+//         this.age = age;
+//         this.search = search;
+//         this.description =description;
+
+//         this.text = document.createElement('div');
+//         this.text.className = 'text';
+//         this.text.style.display = 'none';
+//         this.text.innerHTML = `
+//             <p><b>Nom :</b> ${this.nom}</p>
+//             <p><b>Prénom :</b> ${this.prenom}</p>
+//             <p><b>Âge :</b> ${this.age}</p>
+//             <p><b>Intéressé par :</b> ${this.search}</p>
+//             <p><b>Description :</b> ${this.description}</p>
+//         `;
+
+//         this.personElement = document.getElementById(this.id);
+//         this.personElement.appendChild(this.text);
+
+//         this.personElement.addEventListener('click', () => {
+//             this.toggleText();
+//         });
+//     }
 // Récupérer les informations du profil
 
 
@@ -364,7 +389,6 @@ let femme12 = new person (
           </div>
       </div>
 
-        
           `
     }
 
@@ -380,9 +404,77 @@ let femme12 = new person (
 //     });
 
 //     toggleText() {
-//     if (this.text.style.display === 'none') {
-//         this.text.style.display = 'block';
-//     } else {
-//         this.text.style.display = 'none';
+//         if (this.text.style.display === 'none') {
+//             this.text.style.display = 'block';
+//         } else {
+//             this.text.style.display = 'none';
+//         }
 //     }
 // };
+// }
+
+function filterItems(category) {
+    const profiles = document.querySelectorAll('.profile'); // Sélectionnez les éléments avec la classe profile
+
+    profiles.forEach((profile) => {
+        if (category === 'all' || profile.classList.contains(category)) { // Utilisez la classe .femmes ou .hommes
+            profile.classList.remove('hide');
+        } else {
+            profile.classList.add('hide');
+        }
+    });
+}
+
+
+
+// // const person = new Person('97', 'Kim', 'assets/homme1.jpg', '36', 'homme', 'femmes et hommes', '76', 'description');
+// // let profile = document.getElementById("person");
+
+
+
+// // Récupérer les informations du profil
+
+
+// // Fonction pour stocker des informations dans les cookies
+// function setCookie(name, value) {
+//     document.cookie = `${name}=${value}`;
+// }
+
+// // Exemple pour stocker l'âge dans un cookie
+// setCookie('age', '36');
+
+// // Fonction pour récupérer une valeur de cookie par son nom
+// function getCookie(name) {
+//     const cookies = document.cookie.split("; ");
+//     for (const cookie of cookies) {
+//         const [cookieName, cookieValue] = cookie.split("=");
+//         if (cookieName === name) {
+//             return decodeURIComponent(cookieValue);
+//         }
+//     }
+//     return null;
+// }
+
+// // Exemple recupertation coockie age
+// const ageFromCookie = getCookie('age');
+// console.log('Âge récupéré depuis le cookie : ' + ageFromCookie);
+
+
+// //     this.text.style.display = 'none'; // Par défaut, le texte est masqué.
+
+// //     this.personElement = document.getElementById();
+// //     this.personElement.appendChild(this.text);
+
+// //     this.personElement.addEventListener('click', () => {
+// //         this.toggleText();
+// //     });
+
+// //     toggleText() {
+// //     if (this.text.style.display === 'none') {
+// //         this.text.style.display = 'block';
+// //     } else {
+// //         this.text.style.display = 'none';
+// //     }
+// // };
+
+
