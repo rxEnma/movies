@@ -212,11 +212,11 @@ let homme11 = new person (
     );
 let homme12 = new person (
     '108',
-    'Homme1',
-    'assets/homme12.jpg',
+    'Nassim',
+    'assets/moi.jpg',
     '24',
     'homme',
-'femmes',
+    'femmes',
     '76',
     `description`,
 
@@ -227,7 +227,7 @@ let femme1 = new person (
     'assets/femme1.jpg',
     '29',
     'femme',
-'homme',
+    'homme',
     '35',
     `Salut! Je suis passionnée par les voyages, j'adore explorer de nouveaux horizons et découvrir différentes cultures. Si tu es à la recherche d'une connexion authentique, d'une dose d'humour et d'une personne ouverte d'esprit, alors nous pourrions être des âmes sœurs en devenir. Faisons connaissance, partageons des rires et créons des souvenirs inoubliables ensemble`,
     'femme'
@@ -241,7 +241,6 @@ let femme2 = new person (
 'femmes',
     '77',
     `Je me présente: Karen, une femme élégante et mystérieuse. Un regard pétillant et un charme envoûtant, je sais captiver les cœurs. Passionnée de littérature et de voyage, je cherche une compagne cultivée et ouverte d'esprit pour explorer le monde et créer des souvenirs inoubliables.`,
-
     );
 let femme3 = new person (
     '111',
@@ -271,10 +270,10 @@ let femme5 = new person (
     'assets/femme5.jpg',
     '58',
     'femme',
-'hommes et femmes',
+    'hommes et femmes',
     '69',
     `Je suis une femme douce et bienveillante. Mon sourire chaleureux illumine chaque pièce et mon optimisme est contagieux. Passionnée par le bien-être et le développement personnel, je recherche un partenaire qui partage ma quête de croissance et d'épanouissement. Toujours prête à soutenir ceux que j'aime, je suis à la recherche d'une relation sincère et équilibrée. Prêt à construire une belle histoire avec ensemble?
-`,
+    `,
 
     );
 let femme6 = new person (
@@ -361,21 +360,26 @@ let femme12 = new person (
 
     for (let i = 0; i <= length; i++) {
         profile.innerHTML += `
-        <div class="card" style="width: 13rem;">
-            <img src="${personne[i].picture}" class="card-img-top" alt="Image de ${personne[i].pseudo}" id= ${personne[i].id}>
-            <div class="card-body">
-            <ul>
-            <li class="card-text">Nom : ${personne[i].pseudo}</li>
-            <li class="card-text">Age : ${personne[i].age}</li>
-            <li class="card-text">Genre : ${personne[i].gender}</li>
-            <li class="card-text">Region : ${personne[i].region}</li>
-            <li class="card-text">ID : ${personne[i].id}</li>
-            </ul>
-            </div>
-          </div>    
 
+        <div class="card" style="width: 23rem;">
+        <img src="${personne[i].picture}" class="card-img-top m-0" alt="Image de ${personne[i].pseudo}" id= ${personne[i].id}>
+        <div class="card-body">
+          <p class="card-title text-center">Nom : ${personne[i].pseudo}</p>
+          <p class="text-center">Age : ${personne[i].age}</p>
+          <p class="text-center">Recherche : ${personne[i].search}</p>
+          <p class="text-center">Viens du ${personne[i].region}</p>
+          <div class="divButton">
+          <a href="#" class="btn btn-primary btn-profile">Ajouter</a>
+          <a href="#" class="btn btn-primary btn-profile">A propos</a>
+          </div>
+          </div>
+      </div>
+
+        
           `
     }
+
+
 
 //     this.text.style.display = 'none'; // Par défaut, le texte est masqué.
 

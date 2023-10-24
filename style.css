@@ -47,17 +47,20 @@ main img {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
-    width: 10rem;
+    width: 18rem;
     background-color: #FFD9DA;
     cursor: pointer;
 }
 
 
+.card-img-top{
+    height: 60%;
+    padding: 0;
+}
 h1 {
     text-align: center;
     right: 50%;
 }
-
 
 
 footer {
@@ -68,6 +71,48 @@ footer {
     color: #fff;
 }
 
+
+
+/* btn profile */
+
+.btn-profile {
+    font-family: 'Rubik', sans-serif;
+    background-color: #42C2DE;
+    border: 1px solid white;
+    border-width: 2px 2px;
+    border-radius: 40px;    color: white;
+    font-size: 1.2rem;
+    margin: 0 15px ;
+    padding: 0 25px;
+    transition:  .5s ease;
+    display: inline;
+    
+}
+
+.divButton{
+    width: 20rem;
+}
+.btn-profile:hover{
+    color: #001F3F;
+    border: none;
+    background-color: white;
+    transition:  .5s ease;
+    
+}
+#profile{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* cards */
+.card{
+
+    background-color: #42C2DE;
+    height: 100%;
+    width: 100%;
+    
+    
+}
 
  /*popup  */
 .popup {
