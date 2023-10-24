@@ -1,3 +1,25 @@
+// // Fermeture du popup quand on clique sur la croix ou sur BonChan :D
+// let closeBtn = document.querySelector('.close-btn');
+// closeBtn.addEventListener('click', function () {
+//     let popup = document.querySelector('.popup');
+//     popup.style.display = 'none';
+// });
+// let BonChan = document.querySelector('.BonChan');
+//     BonChan.addEventListener('click', function () {
+//     let popup = document.querySelector('.popup');
+//     popup.style.display = 'none';
+// });
+
+//   // Se montre quand la page se charge
+//   window.onload = function () {
+//     let popup = document.querySelector('.popup');
+//     popup.style.display = 'block';
+//     welcome.play();
+//     //masque la card jusqu'a cliquer sur "Commencer"
+//     gameContainer.style.visibility ='hidden';
+// }
+
+
 class person {
     constructor(id, pseudo, picture, age, gender, search, region, description){
         this.id = id;
@@ -11,7 +33,8 @@ class person {
     }
 }
 
-const personArray= [homme1, homme2, homme3, homme4, homme5, homme6, homme7, homme8, homme9, homme10, homme11, homme12, femme1, femme2, femme3, femme4, femme5, femme6, femme7, femme8, femme9, femme10, femme11, femme12];
+let profile = document.getElementById("profile");
+
 
 // Récupérer les informations du profil
 
@@ -55,7 +78,7 @@ function getCookie(name) {
 const ageFromCookie = getCookie("age");
 console.log("Âge récupéré depuis le cookie : " + ageFromCookie);
 
-let homme1 = new homme (
+let homme1 = new person (
     '97',
     'Kim',
     'assets/homme1.jpg',
@@ -65,7 +88,7 @@ let homme1 = new homme (
     'description',
     'homme'
     );
-let homme2 = new homme (
+let homme2 = new person (
     '98',
     'Patrice',
     'assets/homme2.jpg',
@@ -75,7 +98,7 @@ let homme2 = new homme (
     'description',
     'homme'
     );
-let homme3 = new homme (
+let homme3 = new person (
     '99',
     'Emmanuel',
     'assets/homme3.jpg',
@@ -85,7 +108,7 @@ let homme3 = new homme (
     'description',
     'homme'
     );
-let homme4 = new homme (
+let homme4 = new person (
     '100',
     'Ajay',
     'assets/homme4.jpg',
@@ -95,7 +118,7 @@ let homme4 = new homme (
     'description',
     'homme'
     );
-let homme5 = new homme (
+let homme5 = new person (
     '101',
     'Frédéric',
     'assets/homme5.jpg',
@@ -105,7 +128,7 @@ let homme5 = new homme (
     'description',
     'homme'
     );
-let homme6 = new homme (
+let homme6 = new person (
     '102',
     'Gerard',
     'assets/homme6.jpg',
@@ -115,7 +138,7 @@ let homme6 = new homme (
     'description',
     'homme'
     );
-let homme7 = new homme (
+let homme7 = new person (
     '103',
     'Nadesh',
     'assets/homme7.jpg',
@@ -125,7 +148,7 @@ let homme7 = new homme (
     'description',
     'homme'
     );
-let homme8 = new homme (
+let homme8 = new person (
     '104',
     'Marc',
     'assets/homme8.jpg',
@@ -135,7 +158,7 @@ let homme8 = new homme (
     'description',
     'homme'
     );
-let homme9 = new homme (
+let homme9 = new person (
     '105',
     'Léo',
     'assets/homme9.jpg',
@@ -145,7 +168,7 @@ let homme9 = new homme (
     'description',
     'homme'
     );
-let homme10 = new homme (
+let homme10 = new person (
     '106',
     'David',
     'assets/homme10.jpg',
@@ -155,7 +178,7 @@ let homme10 = new homme (
     'description',
     'homme'
     );
-let homme11 = new homme (
+let homme11 = new person (
     '107',
     'Henry',
     'assets/homme11.jpg',
@@ -165,7 +188,7 @@ let homme11 = new homme (
     'description',
     'homme'
     );
-let homme12 = new homme (
+let homme12 = new person (
     '108',
     'Homme1',
     'assets/homme12.jpg',
@@ -175,7 +198,7 @@ let homme12 = new homme (
     'description',
     'homme'
     );
-let femme1 = new femme (
+let femme1 = new person (
     '109',
     'Laeticia',
     'assets/femme1.jpg',
@@ -185,7 +208,7 @@ let femme1 = new femme (
     'description',
     ''
     );
-let femme2 = new femme (
+let femme2 = new person (
     '110',
     'Karen',
     'assets/femme2.jpg',
@@ -195,7 +218,7 @@ let femme2 = new femme (
     'description',
     ''
     );
-let femme3 = new femme (
+let femme3 = new person (
     '111',
     'Laura',
     'assets/femme3.jpg',
@@ -205,7 +228,7 @@ let femme3 = new femme (
     'description',
     ''
     );
-let femme4 = new femme (
+let femme4 = new person (
     '112',
     'Catherine',
     'assets/femme4.jpg',
@@ -215,7 +238,7 @@ let femme4 = new femme (
     'description',
     ''
     );
-let femme5 = new femme (
+let femme5 = new person (
     '113',
     'Elisabeth',
     'assets/femme5.jpg',
@@ -225,7 +248,7 @@ let femme5 = new femme (
     'description',
     ''
     );
-let femme6 = new femme (
+let femme6 = new person (
     '114',
     'Charlotte',
     'assets/femme6.jpg',
@@ -235,7 +258,7 @@ let femme6 = new femme (
     'description',
     ''
     );
-let femme7 = new femme (
+let femme7 = new person (
     '115',
     'Louise',
     'assets/femme7.jpg',
@@ -245,7 +268,7 @@ let femme7 = new femme (
     'description',
     ''
     );
-let femme8 = new femme (
+let femme8 = new person (
     '116',
     'Léanne',
     'assets/femme8.jpg',
@@ -255,7 +278,7 @@ let femme8 = new femme (
     'description',
     ''
     );
-let femme9 = new femme (
+let femme9 = new person (
     '117',
     'Juhi',
     'assets/femme9.jpg',
@@ -265,7 +288,7 @@ let femme9 = new femme (
     'description',
     ''
     );
-let femme10 = new femme (
+let femme10 = new person (
     '118',
     'Karine',
     'assets/femme10.jpg',
@@ -275,7 +298,7 @@ let femme10 = new femme (
     'description',
     ''
     );
-let femme11 = new femme (
+let femme11 = new person (
     '119',
     'Veronique',
     'assets/femme11.jpg',
@@ -285,7 +308,7 @@ let femme11 = new femme (
     'description',
     ''
     );
-let femme12 = new femme (
+let femme12 = new person (
     '120',
     'Piper',
     'assets/femme12.jpg',
@@ -295,4 +318,44 @@ let femme12 = new femme (
     'description',
     ''
     );
+
+    const personne= [homme1, homme2, homme3, homme4, homme5, homme6, homme7, homme8, homme9, homme10, homme11, homme12, femme1, femme2, femme3, femme4, femme5, femme6, femme7, femme8, femme9, femme10, femme11, femme12];
+
+    const length = personne.length;
+
+    for (let i = 0; i <= length; i++) {
+        profile.innerHTML += `
+        <div class="card" style="width: 13rem;">
+            <img src="${personne[i].picture}" class="card-img-top" alt="Image de ${personne[i].pseudo}" id= ${personne[i].id}>
+            <div class="card-body">
+            <ul>
+            <li class="card-text">Nom : ${personne[i].pseudo}</li>
+            <li class="card-text">Age : ${personne[i].age}</li>
+            <li class="card-text">Genre : ${personne[i].gender}</li>
+            <li class="card-text">Region : ${personne[i].region}</li>
+            <li class="card-text">ID : ${personne[i].id}</li>
+            </ul>
+            </div>
+          </div>    
+
+          `
+    }
+
+//     this.text.style.display = 'none'; // Par défaut, le texte est masqué.
+
+//     this.personElement = document.getElementById();
+//     this.personElement.appendChild(this.text);
+
+//     this.personElement.addEventListener('click', () => {
+//         this.toggleText();
+//     });
+
+//     toggleText() {
+//     if (this.text.style.display === 'none') {
+//         this.text.style.display = 'block';
+//     } else {
+//         this.text.style.display = 'none';
+//     }
+// };
+
 
