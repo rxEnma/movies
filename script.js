@@ -180,7 +180,7 @@ let femme1 = new femme (
     'homme',
     '35',
     'Salut! Je suis un cocktail d'aventure, d'intelligence et de spontanéité. Passionné par les voyages, j'adore explorer de nouveaux horizons et découvrir différentes cultures. Je suis également un adepte de la lecture et des discussions profondes. Si tu es à la recherche d'une connexion authentique, d'une dose d'humour et d'une personne ouverte d'esprit, alors nous pourrions être des âmes sœurs en devenir. Faisons connaissance, partageons des rires et créons des souvenirs inoubliables ensemble',
-    ''
+    'femme'
     );
 let femme2 = new femme (
     '110',
@@ -189,8 +189,8 @@ let femme2 = new femme (
     '38',
     'femmes',
     '77',
-    'Je me présente: Karen, une femme élégante et mystérieuse. Un regard pétillant et son charme envoûtant, je sait captiver les cœurs. Passionnée de littérature et de voyage, je cherche une compagne cultivée et ouverte d'esprit pour explorer le monde et créer des souvenirs inoubliables.',
-    ''
+    'Je me présente: Karen, une femme élégante et mystérieuse. Un regard pétillant et un charme envoûtant, je sais captiver les cœurs. Passionnée de littérature et de voyage, je cherche une compagne cultivée et ouverte d'esprit pour explorer le monde et créer des souvenirs inoubliables.',
+    'femme'
     );
 let femme3 = new femme (
     '111',
@@ -210,7 +210,7 @@ let femme4 = new femme (
     'hommes',
     '27',
     'Je suis une femme dynamique et authentique. Mon sourire contagieux et ma joie de vivre illuminent chaque pièce. Passionnée de sport et d'aventure, je recherche un partenaire qui saura partager mes passions et l'accompagner dans de nouvelles expériences.',
-    ''
+    'femme'
     );
 let femme5 = new femme (
     '113',
@@ -220,7 +220,7 @@ let femme5 = new femme (
     'hommes et femmes',
     '69',
     'description',
-    ''
+    'femme'
     );
 let femme6 = new femme (
     '114',
@@ -230,7 +230,7 @@ let femme6 = new femme (
     'hommes et femmes',
     '14',
     'description',
-    ''
+    'femme'
     );
 let femme7 = new femme (
     '115',
@@ -240,7 +240,7 @@ let femme7 = new femme (
     'hommes',
     '80',
     'description',
-    ''
+    'femme'
     );
 let femme8 = new femme (
     '116',
@@ -249,8 +249,8 @@ let femme8 = new femme (
     '19',
     'femmes et hommes',
     '95',
-    'description',
-    ''
+    '',
+    'femme'
     );
 let femme9 = new femme (
     '117',
@@ -259,8 +259,8 @@ let femme9 = new femme (
     '21',
     'hommes',
     '33',
-    'je suis une femme pleine de vie à la recherche de sa moitié. À la fois douce et audacieuse, j'adore les voyages, la cuisine et les longues promenades en nature. Je souhaite trouver quelqu'un avec qui partager des moments de complicité, de rires et de tendresse. Êtes-vous prêt à vivre une belle histoire avec moi?',
-    ''
+    'je suis une femme pleine de vie à la recherche de ma moitié. À la fois douce et audacieuse, j'adore les voyages, la cuisine et les longues promenades en nature. Je souhaite trouver quelqu'un avec qui partager des moments de complicité, de rires et de tendresse. Êtes-vous prêt à vivre une belle histoire avec moi?',
+    'femme'
     );
 let femme10 = new femme (
     '118',
@@ -269,8 +269,8 @@ let femme10 = new femme (
     '45',
     'hommes',
     '31',
-    'Passionnée de musique et d'art, je suis à la recherche d'une connexion authentique avec un partenaire attentionné. Mon esprit curieux et ma joie de vivre sont contagieux. Prêt à partager des aventures imprévisibles et des moments de complicité avec moi? Rejoins-moi maintenant!',
-    ''
+    'Passionnée de musique et d'art, je suis à la recherche d'une connexion authentique avec un partenaire attentionné. Mon esprit curieux et ma joie de vivre sont contagieux. Prêt à partager des aventures imprévisibles et des moments de complicité avec moi? Like-moi maintenant!',
+    'femme'
     );
 let femme11 = new femme (
     '119',
@@ -280,7 +280,7 @@ let femme11 = new femme (
     'femmes',
     '35',
     'description',
-    ''
+    'femme'
     );
 let femme12 = new femme (
     '120',
@@ -290,6 +290,6 @@ let femme12 = new femme (
     'hommes',
     '76',
     'description',
-    ''
+    'femme'
     );
 
