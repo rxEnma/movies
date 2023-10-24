@@ -95,7 +95,7 @@ let homme2 = new person (
     '43',
     'hommes',
     '27',
-    `Salut, je m'appelle Patrice. j'aime sortir faire la fete mais aussi les soirées tranquilles à la maison. Je recherche quelqu'un qui partage ma passion pour le tuning afin de construire la voiture de nos rêves ensemble. Découvre plus sur moi en matchant !`,
+    `Salut, je m'appelle Patrice. j'aime sortir faire la fete mais aussi les soirées tranquilles à la maison. Je recherche quelqu'un qui partage ma passion pour le tuning afin de construire la voiture de nos rêves ensemble. Découvre plus sur moi en matchant!`,
     'homme'
     );
 let homme3 = new person (
@@ -105,7 +105,7 @@ let homme3 = new person (
     '41',
     'femmes',
     '75',
-    `Moi c'est Emmanuel, un homme passionné par la musique, la nature et les voyages. Je cherche une partenaire de vie pour partager des moments intenses et des conversations profondes.Découvrons-nous si tu es prête à découvrir le monde à mes côtés et à vivre de belles aventures ensemble !`,
+    `Moi c'est Emmanuel, un homme passionné par la musique, la nature et les voyages. Je cherche une partenaire de vie pour partager des moments intenses et des conversations profondes. Découvrons-nous si tu es prête à découvrir le monde à mes côtés et à vivre de belles aventures ensemble!`,
     'homme'
     );
 let homme4 = new person (
@@ -125,7 +125,7 @@ let homme5 = new person (
     '54',
     'femmes',
     '63',
-    `Je suis un homme au cœur tendre et un véritable passionné de la nature. Amoureux des animaux, j'aime passer du temps à explorer les sentiers de randonnée et à observer les étoiles la nuit. Toujours à l'écoute et bienveillant, je cherche une partenaire pour partager des moments de complicité, de douceur et d'aventure`,
+    `Je suis un homme au cœur tendre et un véritable passionné de la nature. Amoureux des animaux, j'aime passer du temps à explorer les sentiers de randonnée et à observer les étoiles la nuit. Toujours à l'écoute et bienveillant, je cherche une partenaire pour partager des moments de complicité, de douceur et d'aventure.`,
     'homme'
     );
 let homme6 = new person (
@@ -135,7 +135,7 @@ let homme6 = new person (
     '59',
     'femmes',
     '14',
-    `description`,
+    `Salut les filles ! Moi c'est Gérard, un véritable homme au grand cœur. Passionné de foot, bière et barbecues, je suis un vrai mec de l'ancienne école. J'aime les soirées entre potes et les blagues un peu grivoises. Si tu cherches un gars simple, qui aime rigoler et prendre la vie comme elle vient, je suis ton homme!`,
     'homme'
     );
 let homme7 = new person (
@@ -145,7 +145,7 @@ let homme7 = new person (
     '27',
     'femmes',
     '69',
-    `description`,
+    `Bonjour à tous ! Je m'appelle Nadesh, une âme créative et passionnée de 27 ans. J'aime explorer le monde de l'art, que ce soit à travers la peinture, la danse ou la musique. J'ai un grand amour pour les voyages et la découverte de nouvelles cultures. Recherche quelqu'un pour partager des aventures et des moments de complicité enrichissants. Au plaisir de vous rencontrer!`,
     'homme'
     );
 let homme8 = new person (
@@ -155,7 +155,7 @@ let homme8 = new person (
     '38',
     'hommes',
     '31',
-    `description`,
+    `Hey les gars ! Je suis Marc, un homme de 38 ans, passionné et authentique. J'adore la musique, la danse et les discussions profondes. Toujours partant pour une bonne dose d'aventure, je cherche quelqu'un avec qui partager des moments de complicité, de rires et de tendresse. Prêt à découvrir ensemble ce que la vie nous réserve. `,
     'homme'
     );
 let homme9 = new person (
@@ -165,7 +165,7 @@ let homme9 = new person (
     '20',
     'femmes',
     '33',
-    `Amoureux des voyages, mordu de lecture et passionné d'humour. À la recherche d'une complicité sincère et de moments mémorables. Prêt à explorer le monde avec toi. Like pour en savoir plus`,
+    `Salut les filles! Moi c'est Léo: amoureux des voyages, mordu de lecture et passionné d'humour. Je suis la recherche d'une complicité sincère et de moments mémorables. Prêt à explorer le monde avec toi. Like pour en savoir plus.`,
     'homme'
     );
 let homme10 = new person (
@@ -205,7 +205,7 @@ let femme1 = new person (
     '29',
     'homme',
     '35',
-    `Salut! Je suis un cocktail d'aventure, d'intelligence et de spontanéité. Passionné par les voyages, j'adore explorer de nouveaux horizons et découvrir différentes cultures. Je suis également un adepte de la lecture et des discussions profondes. Si tu es à la recherche d'une connexion authentique, d'une dose d'humour et d'une personne ouverte d'esprit, alors nous pourrions être des âmes sœurs en devenir. Faisons connaissance, partageons des rires et créons des souvenirs inoubliables ensemble`,
+    `Salut! Je suis passionnée par les voyages, j'adore explorer de nouveaux horizons et découvrir différentes cultures. Si tu es à la recherche d'une connexion authentique, d'une dose d'humour et d'une personne ouverte d'esprit, alors nous pourrions être des âmes sœurs en devenir. Faisons connaissance, partageons des rires et créons des souvenirs inoubliables ensemble`,
     'femme'
     );
 let femme2 = new person (
@@ -225,7 +225,7 @@ let femme3 = new person (
     '32',
     'hommes',
     '75',
-    `Esprit curieux, aventurier dans l'âme. Passionné par l'art, la nature et les discussions profondes. À la recherche d'une connexion authentique. Prêt à créer des souvenirs inoubliables. Rejoins-moi dans cette aventure `,
+    `Esprit curieux, aventurière dans l'âme. Passionnée par l'art, la nature et les discussions profondes. À la recherche d'une connexion authentique. Prêt à créer des souvenirs inoubliables. Rejoins-moi dans cette aventure! `,
     ''
     );
 let femme4 = new person (
@@ -235,7 +235,7 @@ let femme4 = new person (
     '56',
     'hommes',
     '27',
-    `Je suis une femme dynamique et authentique. Mon sourire contagieux et ma joie de vivre illuminent chaque pièce. Passionnée de sport et d'aventure, je recherche un partenaire qui saura partager mes passions et l'accompagner dans de nouvelles expériences.`,
+    `Je suis une femme dynamique et authentique. Mon sourire contagieux et ma joie de vivre illumineront tes journées. Passionnée de sport et d'aventure, je recherche un partenaire qui saura partager mes passions et m'accompagner dans de nouvelles expériences.`,
     'femme'
     );
 let femme5 = new person (
@@ -276,7 +276,7 @@ let femme8 = new person (
     '19',
     'femmes et hommes',
     '95',
-    `Moi c'est Léanne, une femme au charme envoûtant et à l'esprit libre. Passionnée d'art et de littérature, j'adore me perdre dans les musées et dévorer des romans captivants. Amoureuse de la nature, j'apprécie les longues balades en forêt et les couchers de soleil sur la plage. À la recherche d'une connexion profonde et d'une complicité authentique, j'attends celui qui saura conquérir son cœur. Soit pret à vivre un moment passionnant avec moi!`,
+    `Moi c'est Léanne, une femme au charme envoûtant et à l'esprit libre. Passionnée d'art et de littérature, j'adore me perdre dans les musées et dévorer des romans captivants. Amoureuse de la nature, j'apprécie les longues balades en forêt et les couchers de soleil sur la plage. À la recherche d'une connexion profonde et d'une complicité authentique, j'attends celui qui saura conquérir mon cœur. Soit pret à vivre un moment passionnant avec moi!`,
     'femme'
     );
 let femme9 = new person (
@@ -296,7 +296,7 @@ let femme10 = new person (
     '45',
     'hommes',
     '31',
-    `Passionnée de musique et d'art, je suis à la recherche d'une connexion authentique avec un partenaire attentionné. Mon esprit curieux et ma joie de vivre sont contagieux. Prêt à partager des aventures imprévisibles et des moments de complicité avec moi? Like-moi maintenant!`,
+    `Passionnée de musique et d'art, je suis à la recherche d'une connexion authentique avec un partenaire attentionné. Mon esprit curieux et ma joie de vivre sont contagieux. Prêt à partager des aventures imprévisibles et des moments de complicité avec moi? Like maintenant!`,
     'femme'
     );
 let femme11 = new person (
@@ -306,7 +306,7 @@ let femme11 = new person (
     '57',
     'femmes',
     '35',
-    `Passionnée par les voyages et curieuse de découvrir de nouvelles cultures, je suis une femme dynamique qui adore explorer le monde. Je suis dotée d'un sourire chaleureux, d'un esprit ouvert et d'un sens de l'humour contagieux. Adepte d'une vie saine et équilibrée, je recherche un partenaire qui partage ses passions et ses aspirations.`,
+    `Passionnée par les voyages et curieuse de découvrir de nouvelles cultures, je suis une femme dynamique qui adore explorer le monde. Je suis dotée d'un sourire chaleureux, d'un esprit ouvert et d'un sens de l'humour contagieux. Adepte d'une vie saine et équilibrée, je recherche un partenaire qui partage mes passions et mes aspirations.`,
     'femme'
     );
 let femme12 = new person (
