@@ -83,9 +83,10 @@ let homme1 = new person (
     'Kim',
     'assets/homme1.jpg',
     '36',
+    'homme',
     'femmes et hommes',
     '76',
-    'Optimiste, créatif et avide de nouveaux horizons. Passionné par l'art, les voyages et les conversations profondes. À la recherche d'une connexion authentique et de complicité. Prêt à créer des souvenirs uniques ensemble.',
+    `Optimiste, créatif et avide de nouveaux horizons. Passionné par l'art, les voyages et les conversations profondes. À la recherche d'une connexion authentique et de complicité. Prêt à créer des souvenirs uniques ensemble.`,
     'homme'
     );
 let homme2 = new person (
@@ -95,7 +96,7 @@ let homme2 = new person (
     '43',
     'hommes',
     '27',
-    'Salut, je m'appelle Patrice. j'aime sortir faire la fete mais aussi les soirées tranquilles à la maison. Je recherche quelqu'un qui partage ma passion pour le tuning afin de construire la voiture de nos rêves ensemble. Découvre plus sur moi en matchant !',
+    `Salut, je m'appelle Patrice. j'aime sortir faire la fete mais aussi les soirées tranquilles à la maison. Je recherche quelqu'un qui partage ma passion pour le tuning afin de construire la voiture de nos rêves ensemble. Découvre plus sur moi en matchant !`,
     'homme'
     );
 let homme3 = new person (
@@ -105,7 +106,7 @@ let homme3 = new person (
     '41',
     'femmes',
     '75',
-    'Moi c'est Emmanuel, un homme passionné par la musique, la nature et les voyages. Je cherche une partenaire de vie pour partager des moments intenses et des conversations profondes.Découvrons-nous si tu es prête à découvrir le monde à mes côtés et à vivre de belles aventures ensemble !',
+    `Moi c'est Emmanuel, un homme passionné par la musique, la nature et les voyages. Je cherche une partenaire de vie pour partager des moments intenses et des conversations profondes.Découvrons-nous si tu es prête à découvrir le monde à mes côtés et à vivre de belles aventures ensemble !`,
     'homme'
     );
 let homme4 = new person (
@@ -165,7 +166,7 @@ let homme9 = new person (
     '20',
     'femmes',
     '33',
-    'Amoureux des voyages, mordu de lecture et passionné d'humour. À la recherche d'une complicité sincère et de moments mémorables. Prêt à explorer le monde avec toi. Like pour en savoir plus',
+    `Amoureux des voyages, mordu de lecture et passionné d'humour. À la recherche d'une complicité sincère et de moments mémorables. Prêt à explorer le monde avec toi. Like pour en savoir plus`,
     'homme'
     );
 let homme10 = new person (
@@ -175,7 +176,7 @@ let homme10 = new person (
     '26',
     'femmes',
     '35',
-    'Esprit libre, passionné d'aventure et de découvertes. Toujours prêt à embrasser les surprises que la vie offre. À la recherche d'une connexion authentique et de moments remplis de rires. Match avec moi et créons notre propre aventure ensemble!',
+    `Esprit libre, passionné d'aventure et de découvertes. Toujours prêt à embrasser les surprises que la vie offre. À la recherche d'une connexion authentique et de moments remplis de rires. Match avec moi et créons notre propre aventure ensemble!`,
     'homme'
     );
 let homme11 = new person (
@@ -190,23 +191,24 @@ let homme11 = new person (
     );
 let homme12 = new person (
     '108',
-    'Homme1',
-    'assets/homme12.jpg',
+    'Nassim',
+    'assets/moi.jpg',
     '24',
+    'homme',
     'femmes',
     '76',
     'description',
-    'homme'
+    
     );
 let femme1 = new person (
     '109',
     'Laeticia',
     'assets/femme1.jpg',
     '29',
+    'femme',
     'homme',
     '35',
-    'Salut! Je suis un cocktail d'aventure, d'intelligence et de spontanéité. Passionné par les voyages, j'adore explorer de nouveaux horizons et découvrir différentes cultures. Je suis également un adepte de la lecture et des discussions profondes. Si tu es à la recherche d'une connexion authentique, d'une dose d'humour et d'une personne ouverte d'esprit, alors nous pourrions être des âmes sœurs en devenir. Faisons connaissance, partageons des rires et créons des souvenirs inoubliables ensemble',
-    'femme'
+    `Salut! Je suis un cocktail d'aventure, d'intelligence et de spontanéité. Passionné par les voyages, j'adore explorer de nouveaux horizons et découvrir différentes cultures. Je suis également un adepte de la lecture et des discussions profondes. Si tu es à la recherche d'une connexion authentique, d'une dose d'humour et d'une personne ouverte d'esprit, alors nous pourrions être des âmes sœurs en devenir. Faisons connaissance, partageons des rires et créons des souvenirs inoubliables ensemble`,
     );
 let femme2 = new person (
     '110',
@@ -215,7 +217,7 @@ let femme2 = new person (
     '38',
     'femmes',
     '77',
-    'Je me présente: Karen, une femme élégante et mystérieuse. Un regard pétillant et un charme envoûtant, je sais captiver les cœurs. Passionnée de littérature et de voyage, je cherche une compagne cultivée et ouverte d'esprit pour explorer le monde et créer des souvenirs inoubliables.',
+    `Je me présente: Karen, une femme élégante et mystérieuse. Un regard pétillant et un charme envoûtant, je sais captiver les cœurs. Passionnée de littérature et de voyage, je cherche une compagne cultivée et ouverte d'esprit pour explorer le monde et créer des souvenirs inoubliables.`,
     'femme'
     );
 let femme3 = new person (
@@ -225,7 +227,7 @@ let femme3 = new person (
     '32',
     'hommes',
     '75',
-    'Esprit curieux, aventurier dans l'âme. Passionné par l'art, la nature et les discussions profondes. À la recherche d'une connexion authentique. Prêt à créer des souvenirs inoubliables. Rejoins-moi dans cette aventure ',
+    `Esprit curieux, aventurier dans l'âme. Passionné par l'art, la nature et les discussions profondes. À la recherche d'une connexion authentique. Prêt à créer des souvenirs inoubliables. Rejoins-moi dans cette aventure `,
     ''
     );
 let femme4 = new person (
@@ -235,7 +237,7 @@ let femme4 = new person (
     '56',
     'hommes',
     '27',
-    'Je suis une femme dynamique et authentique. Mon sourire contagieux et ma joie de vivre illuminent chaque pièce. Passionnée de sport et d'aventure, je recherche un partenaire qui saura partager mes passions et l'accompagner dans de nouvelles expériences.',
+    `Je suis une femme dynamique et authentique. Mon sourire contagieux et ma joie de vivre illuminent chaque pièce. Passionnée de sport et d'aventure, je recherche un partenaire qui saura partager mes passions et l'accompagner dans de nouvelles expériences.`,
     'femme'
     );
 let femme5 = new person (
@@ -245,8 +247,7 @@ let femme5 = new person (
     '58',
     'hommes et femmes',
     '69',
-    'Je suis une femme douce et bienveillante. Mon sourire chaleureux illumine chaque pièce et mon optimisme est contagieux. Passionnée par le bien-être et le développement personnel, je recherche un partenaire qui partage ma quête de croissance et d'épanouissement. Toujours prête à soutenir ceux que j'aime, je suis à la recherche d'une relation sincère et équilibrée. Prêt à construire une belle histoire avec ensemble?
-',
+`Je suis une femme douce et bienveillante. Mon sourire chaleureux illumine chaque pièce et mon optimisme est contagieux. Passionnée par le bien-être et le développement personnel, je recherche un partenaire qui partage ma quête de croissance et d'épanouissement. Toujours prête à soutenir ceux que j'aime, je suis à la recherche d'une relation sincère et équilibrée. Prêt à construire une belle histoire avec ensemble?`,
     'femme'
     );
 let femme6 = new person (
@@ -254,10 +255,10 @@ let femme6 = new person (
     'Charlotte',
     'assets/femme6.jpg',
     '34',
+    'femme',
     'hommes et femmes',
     '14',
     'description',
-    'femme'
     );
 let femme7 = new person (
     '115',
@@ -276,7 +277,7 @@ let femme8 = new person (
     '19',
     'femmes et hommes',
     '95',
-    'Moi c'est Léanne, une femme au charme envoûtant et à l'esprit libre. Passionnée d'art et de littérature, j'adore me perdre dans les musées et dévorer des romans captivants. Amoureuse de la nature, j'apprécie les longues balades en forêt et les couchers de soleil sur la plage. À la recherche d'une connexion profonde et d'une complicité authentique, j'attends celui qui saura conquérir son cœur. Soit pret à vivre un moment passionnant avec moi!',
+    `Moi c'est Léanne, une femme au charme envoûtant et à l'esprit libre. Passionnée d'art et de littérature, j'adore me perdre dans les musées et dévorer des romans captivants. Amoureuse de la nature, j'apprécie les longues balades en forêt et les couchers de soleil sur la plage. À la recherche d'une connexion profonde et d'une complicité authentique, j'attends celui qui saura conquérir son cœur. Soit pret à vivre un moment passionnant avec moi!`,
     'femme'
     );
 let femme9 = new person (
@@ -286,7 +287,7 @@ let femme9 = new person (
     '21',
     'hommes',
     '33',
-    'je suis une femme pleine de vie à la recherche de ma moitié. À la fois douce et audacieuse, j'adore les voyages, la cuisine et les longues promenades en nature. Je souhaite trouver quelqu'un avec qui partager des moments de complicité, de rires et de tendresse. Êtes-vous prêt à vivre une belle histoire avec moi?',
+    `je suis une femme pleine de vie à la recherche de ma moitié. À la fois douce et audacieuse, j'adore les voyages, la cuisine et les longues promenades en nature. Je souhaite trouver quelqu'un avec qui partager des moments de complicité, de rires et de tendresse. Êtes-vous prêt à vivre une belle histoire avec moi?`,
     'femme'
     );
 let femme10 = new person (
@@ -296,7 +297,7 @@ let femme10 = new person (
     '45',
     'hommes',
     '31',
-    'Passionnée de musique et d'art, je suis à la recherche d'une connexion authentique avec un partenaire attentionné. Mon esprit curieux et ma joie de vivre sont contagieux. Prêt à partager des aventures imprévisibles et des moments de complicité avec moi? Like-moi maintenant!',
+    `Passionnée de musique et d'art, je suis à la recherche d'une connexion authentique avec un partenaire attentionné. Mon esprit curieux et ma joie de vivre sont contagieux. Prêt à partager des aventures imprévisibles et des moments de complicité avec moi? Like-moi maintenant!`,
     'femme'
     );
 let femme11 = new person (
@@ -316,7 +317,7 @@ let femme12 = new person (
     '20',
     'hommes',
     '76',
-    ''Salut, moi c'est Piper! Mon regard profond et mon sourire envoûtant vous captiveront dès le premier instant. Passionnée de musique et d'aventures, j'aime explorer de nouveaux horizons et repousser les limites de ma créativité. À la recherche d'une âme complice qui saura m'accompagner dans mes escapades, je souhaite vivre une histoire passionnée et pleine d'émotions. Sauras-tu satisfaire mes attentes ?',
+    `Salut, moi c'est Piper! Mon regard profond et mon sourire envoûtant vous captiveront dès le premier instant. Passionnée de musique et d'aventures, j'aime explorer de nouveaux horizons et repousser les limites de ma créativité. À la recherche d'une âme complice qui saura m'accompagner dans mes escapades, je souhaite vivre une histoire passionnée et pleine d'émotions. Sauras-tu satisfaire mes attentes ?`,
     'femme'
     );
 
@@ -326,21 +327,26 @@ let femme12 = new person (
 
     for (let i = 0; i <= length; i++) {
         profile.innerHTML += `
-        <div class="card" style="width: 13rem;">
-            <img src="${personne[i].picture}" class="card-img-top" alt="Image de ${personne[i].pseudo}" id= ${personne[i].id}>
-            <div class="card-body">
-            <ul>
-            <li class="card-text">Nom : ${personne[i].pseudo}</li>
-            <li class="card-text">Age : ${personne[i].age}</li>
-            <li class="card-text">Genre : ${personne[i].gender}</li>
-            <li class="card-text">Region : ${personne[i].region}</li>
-            <li class="card-text">ID : ${personne[i].id}</li>
-            </ul>
-            </div>
-          </div>    
 
+        <div class="card" style="width: 23rem;">
+        <img src="${personne[i].picture}" class="card-img-top m-0" alt="Image de ${personne[i].pseudo}" id= ${personne[i].id}>
+        <div class="card-body">
+          <p class="card-title text-center">Nom : ${personne[i].pseudo}</p>
+          <p class="text-center">Age : ${personne[i].age}</p>
+          <p class="text-center">Recherche : ${personne[i].search}</p>
+          <p class="text-center">Viens du ${personne[i].region}</p>
+          <div class="divButton">
+          <a href="#" class="btn btn-primary btn-profile">Ajouter</a>
+          <a href="#" class="btn btn-primary btn-profile">A propos</a>
+          </div>
+          </div>
+      </div>
+
+        
           `
     }
+
+
 
 //     this.text.style.display = 'none'; // Par défaut, le texte est masqué.
 
