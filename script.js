@@ -85,7 +85,7 @@ let homme1 = new person (
     '36',
     'femmes et hommes',
     '76',
-    'description',
+    'Optimiste, créatif et avide de nouveaux horizons. Passionné par l'art, les voyages et les conversations profondes. À la recherche d'une connexion authentique et de complicité. Prêt à créer des souvenirs uniques ensemble.',
     'homme'
     );
 let homme2 = new person (
@@ -95,7 +95,7 @@ let homme2 = new person (
     '43',
     'hommes',
     '27',
-    'description',
+    'Salut, je m'appelle Patrice. j'aime sortir faire la fete mais aussi les soirées tranquilles à la maison. Je recherche quelqu'un qui partage ma passion pour le tuning afin de construire la voiture de nos rêves ensemble. Découvre plus sur moi en matchant !',
     'homme'
     );
 let homme3 = new person (
@@ -105,7 +105,7 @@ let homme3 = new person (
     '41',
     'femmes',
     '75',
-    'description',
+    'Moi c'est Emmanuel, un homme passionné par la musique, la nature et les voyages. Je cherche une partenaire de vie pour partager des moments intenses et des conversations profondes.Découvrons-nous si tu es prête à découvrir le monde à mes côtés et à vivre de belles aventures ensemble !',
     'homme'
     );
 let homme4 = new person (
@@ -165,7 +165,7 @@ let homme9 = new person (
     '20',
     'femmes',
     '33',
-    'description',
+    'Amoureux des voyages, mordu de lecture et passionné d'humour. À la recherche d'une complicité sincère et de moments mémorables. Prêt à explorer le monde avec toi. Like pour en savoir plus',
     'homme'
     );
 let homme10 = new person (
@@ -175,7 +175,7 @@ let homme10 = new person (
     '26',
     'femmes',
     '35',
-    'description',
+    'Esprit libre, passionné d'aventure et de découvertes. Toujours prêt à embrasser les surprises que la vie offre. À la recherche d'une connexion authentique et de moments remplis de rires. Match avec moi et créons notre propre aventure ensemble!',
     'homme'
     );
 let homme11 = new person (
@@ -205,8 +205,8 @@ let femme1 = new person (
     '29',
     'homme',
     '35',
-    'description',
-    ''
+    'Salut! Je suis un cocktail d'aventure, d'intelligence et de spontanéité. Passionné par les voyages, j'adore explorer de nouveaux horizons et découvrir différentes cultures. Je suis également un adepte de la lecture et des discussions profondes. Si tu es à la recherche d'une connexion authentique, d'une dose d'humour et d'une personne ouverte d'esprit, alors nous pourrions être des âmes sœurs en devenir. Faisons connaissance, partageons des rires et créons des souvenirs inoubliables ensemble',
+    'femme'
     );
 let femme2 = new person (
     '110',
@@ -215,8 +215,8 @@ let femme2 = new person (
     '38',
     'femmes',
     '77',
-    'description',
-    ''
+    'Je me présente: Karen, une femme élégante et mystérieuse. Un regard pétillant et un charme envoûtant, je sais captiver les cœurs. Passionnée de littérature et de voyage, je cherche une compagne cultivée et ouverte d'esprit pour explorer le monde et créer des souvenirs inoubliables.',
+    'femme'
     );
 let femme3 = new person (
     '111',
@@ -225,7 +225,7 @@ let femme3 = new person (
     '32',
     'hommes',
     '75',
-    'description',
+    'Esprit curieux, aventurier dans l'âme. Passionné par l'art, la nature et les discussions profondes. À la recherche d'une connexion authentique. Prêt à créer des souvenirs inoubliables. Rejoins-moi dans cette aventure ',
     ''
     );
 let femme4 = new person (
@@ -235,8 +235,8 @@ let femme4 = new person (
     '56',
     'hommes',
     '27',
-    'description',
-    ''
+    'Je suis une femme dynamique et authentique. Mon sourire contagieux et ma joie de vivre illuminent chaque pièce. Passionnée de sport et d'aventure, je recherche un partenaire qui saura partager mes passions et l'accompagner dans de nouvelles expériences.',
+    'femme'
     );
 let femme5 = new person (
     '113',
@@ -245,8 +245,9 @@ let femme5 = new person (
     '58',
     'hommes et femmes',
     '69',
-    'description',
-    ''
+    'Je suis une femme douce et bienveillante. Mon sourire chaleureux illumine chaque pièce et mon optimisme est contagieux. Passionnée par le bien-être et le développement personnel, je recherche un partenaire qui partage ma quête de croissance et d'épanouissement. Toujours prête à soutenir ceux que j'aime, je suis à la recherche d'une relation sincère et équilibrée. Prêt à construire une belle histoire avec ensemble?
+',
+    'femme'
     );
 let femme6 = new person (
     '114',
@@ -256,7 +257,7 @@ let femme6 = new person (
     'hommes et femmes',
     '14',
     'description',
-    ''
+    'femme'
     );
 let femme7 = new person (
     '115',
@@ -266,7 +267,7 @@ let femme7 = new person (
     'hommes',
     '80',
     'description',
-    ''
+    'femme'
     );
 let femme8 = new person (
     '116',
@@ -275,8 +276,8 @@ let femme8 = new person (
     '19',
     'femmes et hommes',
     '95',
-    'description',
-    ''
+    'Moi c'est Léanne, une femme au charme envoûtant et à l'esprit libre. Passionnée d'art et de littérature, j'adore me perdre dans les musées et dévorer des romans captivants. Amoureuse de la nature, j'apprécie les longues balades en forêt et les couchers de soleil sur la plage. À la recherche d'une connexion profonde et d'une complicité authentique, j'attends celui qui saura conquérir son cœur. Soit pret à vivre un moment passionnant avec moi!',
+    'femme'
     );
 let femme9 = new person (
     '117',
@@ -285,8 +286,8 @@ let femme9 = new person (
     '21',
     'hommes',
     '33',
-    'description',
-    ''
+    'je suis une femme pleine de vie à la recherche de ma moitié. À la fois douce et audacieuse, j'adore les voyages, la cuisine et les longues promenades en nature. Je souhaite trouver quelqu'un avec qui partager des moments de complicité, de rires et de tendresse. Êtes-vous prêt à vivre une belle histoire avec moi?',
+    'femme'
     );
 let femme10 = new person (
     '118',
@@ -295,8 +296,8 @@ let femme10 = new person (
     '45',
     'hommes',
     '31',
-    'description',
-    ''
+    'Passionnée de musique et d'art, je suis à la recherche d'une connexion authentique avec un partenaire attentionné. Mon esprit curieux et ma joie de vivre sont contagieux. Prêt à partager des aventures imprévisibles et des moments de complicité avec moi? Like-moi maintenant!',
+    'femme'
     );
 let femme11 = new person (
     '119',
@@ -306,7 +307,7 @@ let femme11 = new person (
     'femmes',
     '35',
     'description',
-    ''
+    'femme'
     );
 let femme12 = new person (
     '120',
@@ -315,8 +316,8 @@ let femme12 = new person (
     '20',
     'hommes',
     '76',
-    'description',
-    ''
+    ''Salut, moi c'est Piper! Mon regard profond et mon sourire envoûtant vous captiveront dès le premier instant. Passionnée de musique et d'aventures, j'aime explorer de nouveaux horizons et repousser les limites de ma créativité. À la recherche d'une âme complice qui saura m'accompagner dans mes escapades, je souhaite vivre une histoire passionnée et pleine d'émotions. Sauras-tu satisfaire mes attentes ?',
+    'femme'
     );
 
     const personne= [homme1, homme2, homme3, homme4, homme5, homme6, homme7, homme8, homme9, homme10, homme11, homme12, femme1, femme2, femme3, femme4, femme5, femme6, femme7, femme8, femme9, femme10, femme11, femme12];
