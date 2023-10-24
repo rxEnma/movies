@@ -289,7 +289,7 @@ let femme12 = new femme (
     '20',
     'hommes',
     '76',
-    'description',
+    ''Salut, moi c'est Piper! Mon regard profond et mon sourire envoûtant vous captiveront dès le premier instant. Passionnée de musique et d'aventures, j'aime explorer de nouveaux horizons et repousser les limites de ma créativité. À la recherche d'une âme complice qui saura m'accompagner dans mes escapades, je souhaite vivre une histoire passionnée et pleine d'émotions. Sauras-tu satisfaire mes attentes ?',
     'femme'
     );
 
