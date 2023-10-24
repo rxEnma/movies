@@ -219,7 +219,8 @@ let femme5 = new femme (
     '58',
     'hommes et femmes',
     '69',
-    'description',
+    'Je suis une femme douce et bienveillante. Mon sourire chaleureux illumine chaque pièce et mon optimisme est contagieux. Passionnée par le bien-être et le développement personnel, je recherche un partenaire qui partage ma quête de croissance et d'épanouissement. Toujours prête à soutenir ceux que j'aime, je suis à la recherche d'une relation sincère et équilibrée. Prêt à construire une belle histoire avec ensemble?
+',
     'femme'
     );
 let femme6 = new femme (
