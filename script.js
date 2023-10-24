@@ -249,7 +249,7 @@ let femme8 = new femme (
     '19',
     'femmes et hommes',
     '95',
-    '',
+    'Moi c'est Léanne, une femme au charme envoûtant et à l'esprit libre. Passionnée d'art et de littérature, j'adore me perdre dans les musées et dévorer des romans captivants. Amoureuse de la nature, j'apprécie les longues balades en forêt et les couchers de soleil sur la plage. À la recherche d'une connexion profonde et d'une complicité authentique, j'attends celui qui saura conquérir son cœur. Soit pret à vivre un moment passionnant avec moi!',
     'femme'
     );
 let femme9 = new femme (
