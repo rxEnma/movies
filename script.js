@@ -1,23 +1,23 @@
-// // Fermeture du popup quand on clique sur la croix ou sur BonChan :D
-// let closeBtn = document.querySelector('.close-btn');
-// closeBtn.addEventListener('click', function () {
-//     let popup = document.querySelector('.popup');
-//     popup.style.display = 'none';
-// });
-// let BonChan = document.querySelector('.BonChan');
-//     BonChan.addEventListener('click', function () {
-//     let popup = document.querySelector('.popup');
-//     popup.style.display = 'none';
-// });
+// Fermeture du popup quand on clique sur la croix ou sur BonChan :D
+let closeBtn = document.querySelector('.close-btn');
+closeBtn.addEventListener('click', function () {
+    let popup = document.querySelector('.popup');
+    popup.style.display = 'none';
+});
+let BonChan = document.querySelector('.BonChan');
+    BonChan.addEventListener('click', function () {
+    let popup = document.querySelector('.popup');
+    popup.style.display = 'none';
+});
 
-//   // Se montre quand la page se charge
-//   window.onload = function () {
-//     let popup = document.querySelector('.popup');
-//     popup.style.display = 'block';
-//     welcome.play();
-//     //masque la card jusqu'a cliquer sur "Commencer"
-//     gameContainer.style.visibility ='hidden';
-// }
+  // Se montre quand la page se charge
+  window.onload = function () {
+    let popup = document.querySelector('.popup');
+    popup.style.display = 'block';
+    welcome.play();
+    //masque la card jusqu'a cliquer sur "Commencer"
+    gameContainer.style.visibility ='hidden';
+}
 
 
 class person {
@@ -386,5 +386,3 @@ let femme12 = new person (
 //         this.text.style.display = 'none';
 //     }
 // };
-
-

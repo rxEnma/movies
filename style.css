@@ -92,7 +92,8 @@ footer {
 }
 
 .divButton{
-    width: 20rem;
+    width: 21rem;
+    
 }
 .btn-profile:hover{
     color: #001F3F;
@@ -104,11 +105,15 @@ footer {
 #profile{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem; 
+    column-gap: 2rem;   
+    margin: 2rem;
+    position: relative;
+    left: 20rem;
 }
 
 /* cards */
 .card{
-
     background-color: #42C2DE;
     height: 100%;
     width: 100%;
@@ -141,3 +146,31 @@ footer {
     padding: 20px;
     border-radius: 10px;
   }
+
+
+
+/* Scrollbar color */
+
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: rgb(174, 171, 171);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #F90;	
+	background-image: -webkit-linear-gradient(45deg,
+	                                          rgba(255, 255, 255, .2) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(255, 255, 255, .2) 50%,
+											  rgba(255, 255, 255, .2) 75%,
+											  transparent 75%,
+											  transparent)
+
+}
+
+::-webkit-scrollbar-corner {
+    background: #000;
+}
