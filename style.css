@@ -94,3 +94,33 @@ footer {
     padding: 20px;
     border-radius: 10px;
   }
+
+  #retour{
+    display: flex;
+    margin: auto;
+    margin-top:4rem ;
+
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-buttons {
+    margin-bottom: 10px;
+}
+
+.hide {
+    display: none;
+}
