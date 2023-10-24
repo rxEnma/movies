@@ -30,9 +30,11 @@ main img {
     flex-wrap: wrap;
     justify-content: center;
     padding: 1rem;
+    width: 8rem;
+    max-width: 100%;
 }
 
-.profile img {
+.profile{
 
     text-align: center;
     border: 2px solid #333;
@@ -49,10 +51,6 @@ main img {
     cursor: pointer;
 }
 
-div {
-    width: 300px;
-    display: inline-block;
-}
 
 h1 {
     text-align: center;
@@ -62,7 +60,7 @@ h1 {
 
 
 footer {
-    padding-top: 5rem;
+    margin-top: 5rem;
     text-align: center;
     padding: 1rem;
     background-color: #B49286;
