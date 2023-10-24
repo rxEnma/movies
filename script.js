@@ -307,7 +307,7 @@ let femme9 = new person (
     'femme',
 'hommes',
     '33',
-    `je suis une femme pleine de vie à la recherche de ma moitié. À la fois douce et audacieuse, j'adore les voyages, la cuisine et les longues promenades en nature. Je souhaite trouver quelqu'un avec qui partager des moments de complicité, de rires et de tendresse. Êtes-vous prêt à vivre une belle histoire avec moi?`,
+    `Je suis une femme pleine de vie à la recherche de ma moitié. À la fois douce et audacieuse, j'adore les voyages, la cuisine et les longues promenades en nature. Je souhaite trouver quelqu'un avec qui partager des moments de complicité, de rires et de tendresse. Êtes-vous prêt à vivre une belle histoire avec moi?`,
     
     );
 let femme10 = new person (
@@ -329,7 +329,7 @@ let femme11 = new person (
     'femme',
 'hommes',
     '35',
-    `Passionnée par les voyages et curieuse de découvrir de nouvelles cultures, je suis une femme dynamique qui adore explorer le monde. Je suis dotée d'un sourire chaleureux, d'un esprit ouvert et d'un sens de l'humour contagieux. Adepte d'une vie saine et équilibrée, je recherche un partenaire qui partage mes passions et mes aspirations.`,
+    `Ma passion ? les voyages. Curieuse de découvrir de nouvelles cultures, je suis une femme dynamique qui adore explorer le monde. Je suis dotée d'un sourire chaleureux, d'un esprit ouvert et d'un sens de l'humour contagieux. Adepte d'une vie saine et équilibrée, je recherche un partenaire qui partage mes passions et mes aspirations.`,
 
     );
 let femme12 = new person (
