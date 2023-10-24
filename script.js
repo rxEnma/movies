@@ -115,7 +115,7 @@ let homme4 = new person (
     '32',
     'femmes',
     '59',
-    `description`,
+    `Homme intrépide et aventurier dans l'âme, toujours prêt à relever de nouveaux défis. Passionné de musique et de nature, j'adore jouer de la guitare au coin d'un feu de camp. Mon attitude bienveillante fait de moi un compagnon idéal pour partager des moments authentiques et des rires complices.`,
     'homme'
     );
 let homme5 = new person (
@@ -125,7 +125,7 @@ let homme5 = new person (
     '54',
     'femmes',
     '63',
-    `description`,
+    `Je suis un homme au cœur tendre et un véritable passionné de la nature. Amoureux des animaux, j'aime passer du temps à explorer les sentiers de randonnée et à observer les étoiles la nuit. Toujours à l'écoute et bienveillant, je cherche une partenaire pour partager des moments de complicité, de douceur et d'aventure`,
     'homme'
     );
 let homme6 = new person (
@@ -185,7 +185,7 @@ let homme11 = new person (
     '51',
     'femmes',
     '13',
-    `description`,
+    `A la fois doux et aventureux, je suis passionné de cuisine. J'aime préparer de délicieux repas pour mes proches. Un esprit créatif et une joie de vivre contagieuse, je saurais te faire rire et t'emporter dans des escapades spontanées. Je recherche une complice pour partager des moments de complicité et d'émerveillement.`,
     'homme'
     );
 let homme12 = new person (
@@ -266,7 +266,7 @@ let femme7 = new person (
     '24',
     'hommes',
     '80',
-    `Jeune femme pétillante, à la recherche d'une connexion authentique. Passionnée de voyages et de découvertes, j'aime explorer de nouveaux horizons et rencontrer des personnes inspirantes. Dynamique et ambitieuse, j'apprécie les conversations profondes autant que les moments de légèreté. À la recherche d'un partenaire attentionné, avec qui je pourrais construire une relation basée sur le respect et la complicité. Prêt à embarquer dans cette aventure?"`,
+    `Jeune femme pétillante, à la recherche d'une connexion authentique. Passionnée de voyages et de découvertes, j'aime explorer de nouveaux horizons et rencontrer des personnes inspirantes. Dynamique et ambitieuse, j'apprécie les conversations profondes autant que les moments de légèreté. À la recherche d'un partenaire attentionné, avec qui je pourrais construire une relation basée sur le respect et la complicité. Prêt à embarquer dans cette aventure?`,
     'femme'
     );
 let femme8 = new person (
@@ -286,7 +286,7 @@ let femme9 = new person (
     '21',
     'hommes',
     '33',
-    'je suis une femme pleine de vie à la recherche de ma moitié. À la fois douce et audacieuse, j'adore les voyages, la cuisine et les longues promenades en nature. Je souhaite trouver quelqu'un avec qui partager des moments de complicité, de rires et de tendresse. Êtes-vous prêt à vivre une belle histoire avec moi?`,
+    `je suis une femme pleine de vie à la recherche de ma moitié. À la fois douce et audacieuse, j'adore les voyages, la cuisine et les longues promenades en nature. Je souhaite trouver quelqu'un avec qui partager des moments de complicité, de rires et de tendresse. Êtes-vous prêt à vivre une belle histoire avec moi?`,
     'femme'
     );
 let femme10 = new person (
@@ -296,7 +296,7 @@ let femme10 = new person (
     '45',
     'hommes',
     '31',
-    'Passionnée de musique et d'art, je suis à la recherche d'une connexion authentique avec un partenaire attentionné. Mon esprit curieux et ma joie de vivre sont contagieux. Prêt à partager des aventures imprévisibles et des moments de complicité avec moi? Like-moi maintenant!`,
+    `Passionnée de musique et d'art, je suis à la recherche d'une connexion authentique avec un partenaire attentionné. Mon esprit curieux et ma joie de vivre sont contagieux. Prêt à partager des aventures imprévisibles et des moments de complicité avec moi? Like-moi maintenant!`,
     'femme'
     );
 let femme11 = new person (
@@ -306,7 +306,7 @@ let femme11 = new person (
     '57',
     'femmes',
     '35',
-    'description',
+    `Passionnée par les voyages et curieuse de découvrir de nouvelles cultures, je suis une femme dynamique qui adore explorer le monde. Je suis dotée d'un sourire chaleureux, d'un esprit ouvert et d'un sens de l'humour contagieux. Adepte d'une vie saine et équilibrée, je recherche un partenaire qui partage ses passions et ses aspirations.`,
     'femme'
     );
 let femme12 = new person (
