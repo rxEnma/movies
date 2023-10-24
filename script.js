@@ -266,7 +266,7 @@ let femme7 = new person (
     '24',
     'hommes',
     '80',
-    `description`,
+    `Jeune femme pétillante, à la recherche d'une connexion authentique. Passionnée de voyages et de découvertes, j'aime explorer de nouveaux horizons et rencontrer des personnes inspirantes. Dynamique et ambitieuse, j'apprécie les conversations profondes autant que les moments de légèreté. À la recherche d'un partenaire attentionné, avec qui je pourrais construire une relation basée sur le respect et la complicité. Prêt à embarquer dans cette aventure?"`,
     'femme'
     );
 let femme8 = new person (
