@@ -10,14 +10,14 @@ let BonChan = document.querySelector('.BonChan');
     popup.style.display = 'none';
 });
 
-//   // Se montre quand la page se charge
-//   window.onload = function () {
-//     let popup = document.querySelector('.popup');
-//     popup.style.display = 'block';
-//     window.play();
-//     //masque la card jusqu'a cliquer sur "Commencer"
-//     gameContainer.style.visibility ='hidden';
-// }
+  // Se montre quand la page se charge
+  window.onload = function () {
+    let popup = document.querySelector('.popup');
+    popup.style.display = 'block';
+    window.play();
+    //masque la card jusqu'a cliquer sur "Commencer"
+    gameContainer.style.visibility ='hidden';
+}
 
 class person {
     constructor(id, pseudo, picture, age,gender, search,region,description) {
@@ -353,7 +353,7 @@ let femme12 = new person (
     for (let i = 0; i <= length; i++) {
         profile.innerHTML += `
 
-        <div class="card" style="width: 23rem;">
+        <div class="card col-lg-3 col-12" style="width: 23rem;">
         <img src="${personne[i].picture}" class="card-img-top m-0" alt="Image de ${personne[i].pseudo}" id= ${personne[i].id}>
         <div class="card-body">
           <p class="card-title text-center">Nom : ${personne[i].pseudo}</p>

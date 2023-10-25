@@ -1,29 +1,23 @@
-
-
-.un {
-    color: blue;
-}
-
-.btn-p {
-    color: red;
-}
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: rgb(69,104,220);
+background: linear-gradient(to right, rgba(69,104,220,1) 24%, rgba(176,106,179,1) 100%);
 }
 
+
 header {
-    background-color: #B49286;
-    color: #fff;
+    background: rgb(69,104,220);
+background: linear-gradient(to right, rgba(69,104,220,1) 24%, rgba(176,106,179,1) 100%);
+    color: linear-gradient(to right, rgba(69,104,220,1) 24%, rgba(176,106,179,1) 100%);
     text-align: center;
     padding: 1rem;
 }
 
 
 #logo{
-    width: 6rem;
+    width: 9rem;
     text-align: start;
     display: inline-block;
 }
@@ -37,31 +31,15 @@ main img {
     max-width: 100%;
 }
 
-.profile{
-
-    text-align: center;
-    border: 2px solid #333;
-    text-align: center;
-    display: inline-block;
-    margin: 10px;
-    padding: 10px;
-    background-color: #FFF;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
-    width: 18rem;
-    background-color: #FFD9DA;
-    cursor: pointer;
-}
-
-
 .card-img-top{
     height: 60%;
     padding: 0;
 }
+
 h1 {
     text-align: center;
     right: 50%;
+    
 }
 
 
@@ -69,7 +47,8 @@ footer {
     margin-top: 5rem;
     text-align: center;
     padding: 1rem;
-    background-color: #B49286;
+    background: rgb(69,104,220);
+    background: linear-gradient(to right, rgba(69,104,220,1) 24%, rgba(176,106,179,1) 100%);
     color: #fff;
 }
 
@@ -79,14 +58,14 @@ footer {
 
 .btn-profile {
     font-family: 'Rubik', sans-serif;
-    background-color: #42C2DE;
-    border: 1px solid white;
-    border-width: 2px 2px;
-    border-radius: 40px;    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 20px;    
+    color: white;
     font-size: 1.2rem;
     margin: 0 15px ;
-    padding: 0 25px;
-    transition:  .5s ease;
+    padding: 5px 25px;
+    transition:  .5s ease-in;
     display: inline;
     
 }
@@ -114,11 +93,15 @@ footer {
 
 /* cards */
 .card{
-    background-color: #42C2DE;
+    background-color: rgba(0, 0, 0, 0.1);
     height: 100%;
     width: 100%;
+    box-shadow: 0 25px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     
-    
+}
+.card p{
+    color: white;
+    font-weight: bold;
 }
 
  /*popup  */
@@ -203,4 +186,39 @@ footer {
 
 .hide {
     display: none;
+}
+
+
+/* Error 404 */
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    font-family: 'Libre Baskerville', serif;
+
+    
+}
+.Error{
+    position: relative;
+    left: 32%;
+
+}
+.pError{
+    position: relative;
+    top: 60%;
+    left: 7%;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+}
+.pMessage{
+    position: relative;
+    top: 90%;
+    left: -25%;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+
 }
