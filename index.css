@@ -115,8 +115,15 @@ footer {
     background-color: rgba(0, 0, 0, 0.7);
     z-index: 10;
   }
-  .popup .BonChan {
-    border-radius: 5px;
+  .popup .left {
+    position: relative;
+    left: 10%;
+    float: left;
+  }
+  .popup .right {
+    position: relative;
+    left: -5%;
+    float: right;
   }
   
   .popup-content {
@@ -125,11 +132,17 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 500px;
-    background-color: #fff;
+    background: rgb(69,104,220);
+    background: linear-gradient(to right, rgba(69,104,220,1) 24%, rgba(176,106,179,1) 100%);
     padding: 20px;
     border-radius: 10px;
   }
 
+  .dixBold{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px;
+  }
 
 
 /* Scrollbar color */
@@ -198,27 +211,58 @@ footer {
     height: 60vh;
     font-family: 'Libre Baskerville', serif;
 
-    
 }
 .Error{
     position: relative;
-    left: 32%;
+    top: -10%;
+    left: 28%;
+    height: 20rem;
+    background-color: white;
+    background: rgba(0, 0,0, 0.2);
+    border-radius: 2rem;
 
 }
 .pError{
     position: relative;
-    top: 60%;
-    left: 7%;
+    top: 35%;
+    left: 15%;
     color: white;
-    font-size: 4rem;
+    font-size: 2rem;
     text-align: center;
 }
 .pMessage{
     position: relative;
-    top: 90%;
-    left: -25%;
+    top: 50%;
+    left: -4%;
     color: white;
-    font-size: 4rem;
+    font-size: 2rem;
     text-align: center;
 
+}
+
+
+/* Retour bouton */
+.retour{
+    position: relative;
+    top: 80%;
+    left: -28%;
+}
+
+
+/* cgu */
+.cgu{
+    position: relative;
+    left: 23px;
+}
+.onzeBold{
+    font-weight: bold;
+    font-size: 1.1rem;
+    position: relative;
+    left: 30px;
+}
+.cguLink{
+    color: blue;
+}
+input[type="checkbox"]{
+    cursor: pointer;
 }

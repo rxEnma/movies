@@ -1,22 +1,20 @@
 // Fermeture du popup quand on clique sur la croix ou sur BonChan :D
-let closeBtn = document.querySelector('.close-btn');
-closeBtn.addEventListener('click', function () {
+let checkMaj = document.querySelector('.checkMaj');
+checkMaj.addEventListener('click', function () {
     let popup = document.querySelector('.popup');
     popup.style.display = 'none';
 });
-let BonChan = document.querySelector('.BonChan');
-    BonChan.addEventListener('click', function () {
-    let popup = document.querySelector('.popup');
-    popup.style.display = 'none';
+let checkMin = document.querySelector('.checkMin');
+checkMin.addEventListener('click', function () {
+    window.location.href = 'Error401.html';
 });
+
 
   // Se montre quand la page se charge
   window.onload = function () {
     let popup = document.querySelector('.popup');
     popup.style.display = 'block';
     window.play();
-    //masque la card jusqu'a cliquer sur "Commencer"
-    gameContainer.style.visibility ='hidden';
 }
 
 class person {
@@ -31,16 +29,6 @@ class person {
         this.description =description;
 
     }}
-
-//         this.personElement = document.getElementById(this.id);
-//         this.personElement.appendChild(this.text);
-
-//         this.personElement.addEventListener('click', () => {
-//             this.toggleText();
-//         });
-//     }
-// Récupérer les informations du profil
-
 
 const profilElement = document.getElementById("profil"); // Remplacez "profil" par l'ID de votre élément contenant le profil
 
@@ -362,34 +350,13 @@ let femme12 = new person (
           <p class="text-center">Viens du ${personne[i].region}</p>
           <div class="divButton">
           <a href="#" class="btn btn-primary btn-profile">Ajouter</a>
-          <a href="#" class="btn btn-primary btn-profile">A propos</a>
+          <a href="search.html" class="btn btn-primary btn-profile">A propos</a>
           </div>
           </div>
       </div>
 
           `
     }
-
-
-
-//     this.text.style.display = 'none'; // Par défaut, le texte est masqué.
-
-//     this.personElement = document.getElementById();
-//     this.personElement.appendChild(this.text);
-
-//     this.personElement.addEventListener('click', () => {
-//         this.toggleText();
-//     });
-
-//     toggleText() {
-//         if (this.text.style.display === 'none') {
-//             this.text.style.display = 'block';
-//         } else {
-//             this.text.style.display = 'none';
-//         }
-//     }
-// };
-// }
 
 function filterItems(category) {
     const profiles = document.querySelectorAll('.profile'); // Sélectionnez les éléments avec la classe profile
@@ -404,55 +371,7 @@ function filterItems(category) {
 }
 
 
-
-// // const person = new Person('97', 'Kim', 'assets/homme1.jpg', '36', 'homme', 'femmes et hommes', '76', 'description');
-// // let profile = document.getElementById("person");
-
-
-
-// // Récupérer les informations du profil
-
-
-// // Fonction pour stocker des informations dans les cookies
-// function setCookie(name, value) {
-//     document.cookie = `${name}=${value}`;
-// }
-
-// // Exemple pour stocker l'âge dans un cookie
-// setCookie('age', '36');
-
-// // Fonction pour récupérer une valeur de cookie par son nom
-// function getCookie(name) {
-//     const cookies = document.cookie.split("; ");
-//     for (const cookie of cookies) {
-//         const [cookieName, cookieValue] = cookie.split("=");
-//         if (cookieName === name) {
-//             return decodeURIComponent(cookieValue);
-//         }
-//     }
-//     return null;
-// }
-
-// // Exemple recupertation coockie age
-// const ageFromCookie = getCookie('age');
-// console.log('Âge récupéré depuis le cookie : ' + ageFromCookie);
-
-
-// //     this.text.style.display = 'none'; // Par défaut, le texte est masqué.
-
-// //     this.personElement = document.getElementById();
-// //     this.personElement.appendChild(this.text);
-
-// //     this.personElement.addEventListener('click', () => {
-// //         this.toggleText();
-// //     });
-
-// //     toggleText() {
-// //     if (this.text.style.display === 'none') {
-// //         this.text.style.display = 'block';
-// //     } else {
-// //         this.text.style.display = 'none';
-// //     }
-// // };
-
-
+let description = document.querySelector('#description');
+description.addEventListener('click', function () {
+    profile
+});
