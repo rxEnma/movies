@@ -32,28 +32,6 @@ class person {
 
     }}
 
-
-
-// class Person {
-//     constructor(id, nom, prenom, age, search,description) {
-//         this.id = id;
-//         this.nom = nom;
-//         this.prenom = prenom;
-//         this.age = age;
-//         this.search = search;
-//         this.description =description;
-
-//         this.text = document.createElement('div');
-//         this.text.className = 'text';
-//         this.text.style.display = 'none';
-//         this.text.innerHTML = `
-//             <p><b>Nom :</b> ${this.nom}</p>
-//             <p><b>Prénom :</b> ${this.prenom}</p>
-//             <p><b>Âge :</b> ${this.age}</p>
-//             <p><b>Intéressé par :</b> ${this.search}</p>
-//             <p><b>Description :</b> ${this.description}</p>
-//         `;
-
 //         this.personElement = document.getElementById(this.id);
 //         this.personElement.appendChild(this.text);
 
